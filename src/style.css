@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+  }
+  ul {
+    display: flex;
+    gap: 1rem;
+  }
+  li {
+    list-style: none;
+    padding: 3px;
+  }
+  li .link {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 0;
+  }
+  .mainlink {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+  }
+  li .link:hover {
+    background-color: #777;
+  }
+  li .link:active {
+    background-color: #555;
+  }
+  
